@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        dotnet-version: ['net6.0', 'net8.0']
+        dotnet-version: [ 'net8.0']
         build-type: ['default', 'self-contained']
     runs-on: windows-latest
 
